@@ -1,8 +1,5 @@
 from Crypto.Cipher import DES, AES
 import binascii
-UID="119151556"
-Last_name="devaladakere arvind"
-First_Name="Dhanush"
 def aes_input_av_test(inputblock, key,blist):
     cc = binascii.hexlify(key.encode())
     ccc = cc.decode('utf-8')
